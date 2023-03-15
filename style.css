@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+    position: absolute;
+    cursor: pointer;
+}
+
+.name{
+    position: absolute;
+    font-size: 40px;
+    top: 220px;
+    left: 44%;
+    display: none;
+}
+
+body {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+
+}
+
+.knopka {
+    width: 20%;
+    float: left;
+    border-radius: 10px;
+    color: black;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.player_1 {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px;
+    float: left;
+    width: 20%;
+    color: black;
+    border: none;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 5%;
+    background: rgba(6, 79, 39, 0.587);
+    background: linear-gradient(90deg, rgba(6, 79, 39, 0.584) 0%, rgba(9, 123, 34, 0.584) 17%, rgba(6, 157, 84, 0.586) 32%, rgba(0, 213, 255, 0.589) 100%);
+    
+}
+  
+  ::placeholder {
+    color:black;
+  }
+
+.player_2 {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px;
+    float: left;
+    border: none;
+    color: black;
+    width: 20%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 5%;
+    background: rgba(4, 9, 57, 0.586);
+    background: linear-gradient(90deg, rgba(4, 9, 57, 0.584) 0%, rgba(92, 6, 105, 0.584) 43%, rgba(123, 9, 26, 0.587) 57%, rgba(210, 11, 41, 0.587) 100%);
+}
+
+.player_1>p {
+    text-align: center;
+    margin-top: 9%;
+    font-size: 40px;
+}
+
+.player_2>p {
+    text-align: center;
+    margin-top: 9%;
+    font-size: 40px;
+}
+
+.hashiv_1 {
+    border-radius: 10px;
+    float: left;
+    width: 20%;
+    color: aliceblue;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 25%;
+    background: rgba(6, 79, 39, 0.587);
+    background: linear-gradient(90deg, rgba(6, 79, 39, 0.584) 0%, rgba(9, 123, 34, 0.584) 17%, rgba(6, 157, 84, 0.586) 32%, rgba(0, 213, 255, 0.589) 100%);
+    display: none;
+}
+.hashiv_1>p{
+    text-align: center;
+    margin-top: 9%;
+    font-size: 40px;
+}
+
+.hashiv_2{
+    border-radius: 10px;
+    float: left;
+    color: aliceblue;
+    width: 20%;
+    height: 100px;
+    margin-left: 40%;
+    margin-top: 25%;
+    background: rgba(4, 9, 57, 0.586);
+    background: linear-gradient(90deg, rgba(4, 9, 57, 0.584) 0%, rgba(92, 6, 105, 0.584) 43%, rgba(123, 9, 26, 0.587) 57%, rgba(210, 11, 41, 0.587) 100%);
+    display: none;
+}
+.hashiv_2>p{
+    text-align: center;
+    margin-top: 9%;
+    font-size: 40px;
+}
+.win{
+    position: absolute;
+    width: 60%;
+    height: 300px;
+    background-color: black;
+    left: 20%;
+    top: 40%;
+    color: white;
+    font-size: 50px;
+    display: none;
+    z-index: 99999;
+    text-align: center;
+}
